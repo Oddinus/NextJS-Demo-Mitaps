@@ -32,7 +32,7 @@ function HomePage(props) {
           content="Huuuuge list of meetups wrote in React+Next.js"
         ></meta>
       </Head>
-      <MeetupList meetups={props.meetups} />;
+      <MeetupList meetups={props.meetups} />
     </Fragment>
   );
 }
